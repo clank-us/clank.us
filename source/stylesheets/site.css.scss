@@ -23,11 +23,11 @@ body {
 }
 
 main {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
-main>header {
+main > header {
   margin-bottom: 50px;
   padding: 0 10px;
   h1 {
@@ -49,8 +49,7 @@ main>header {
   display: flex;
   flex-flow: row wrap;
   a {
-    flex: 0 1 auto;
-    flex-grow: 1;
+    flex: 1 1 auto;
     display: block;
     padding: 20px;
     margin: 10px;
@@ -61,15 +60,12 @@ main>header {
     }
   }
 
-  dl {
-  }
-
   dt {
     padding-bottom: 10px;
+    font-size: 24px;
     a {
       font-family: 'Catamaran', sans-serif;
       font-weight: 200;
-      font-size: 24px;
       display: block;
       line-height: 24px;
     }
