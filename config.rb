@@ -1,3 +1,4 @@
+require 'projects'
 ###
 # Page options, layouts, aliases and proxies
 ###
